@@ -46,5 +46,7 @@ Our program performs several T-Tests to determine if the manufacturing lots are 
 
 ### Deliverable 4 - Study Design: MechaCar vs Competition
 To improve the utility of our program, we recommend that AutosRUs' management consider supplimenting the MechaCar analysis with an analysis of the competition. It is our belief that a regression model which predicts Units Sold as a function of Cost and Fuel Efficiency (Both Highway and City) would be a beneficial addition to the current model. 
+
 This model would test the Alternative Hypothesis stating units sold will increase as costs decrease and fuel efficiency increases. An evaluation of the P-Values for the individual regressors will determine if the selected metrics are good predictors of our hypothesis. It would also be beneficial to evaluate the R-Squared coefficient of the overall model. 
+
 In order to run this experiment, we will need sales data (cost and volumes) from competitors' annual sales reports as well as fuel efficiency data from government regulatory agencies. 
