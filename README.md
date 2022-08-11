@@ -24,9 +24,23 @@ The purpose of this program is to analyze production data for insights that may 
 2. Our analysis has also determined that each individual lot also meets the design specification as none of the standard deviations seen above are greater than 100 PSI.
 
 ### Deliverable 3 - T-Tests on Suspension Coils
+Our program performs several T-Tests to determine if the manufacturing lots are statistically different from the mean population. The results are pictured below:
 
-### Deliverable 4 - Study Design: MechaCar vs Competition
+![Del3-ttest_alllots](https://user-images.githubusercontent.com/103288980/184240997-fd1584e5-997c-4443-ba92-80b31c4847b3.PNG)
+1. T-Test of overall population: Fail to reject null hypothesis as P-Value (0.06028) is above significance level. Thus the overall population is not statistically different from the mean population.
+
+![Del3-ttest_lot1](https://user-images.githubusercontent.com/103288980/184241017-af024159-21b1-4895-947e-725299e295a3.PNG)
+2. T-Test of Lot 1: Fail to reject null hypothesis as P-Value (1) is well above significance level. Thus Lot 1 is not statistically different from the mean population.
+
+![Del3-ttest_lot2](https://user-images.githubusercontent.com/103288980/184241063-4c5752e5-6296-44dc-8649-7c462def131a.PNG)
+3. T-Test of Lot 2: Fail to reject null hypothesis as P-Value (0.6072) is well above significance level. Thus Lot 2 is not statistically different from the mean population.
+
+![Del3-ttest_lot3](https://user-images.githubusercontent.com/103288980/184241081-62370221-8e32-4ecb-8431-c7174d441c29.PNG)
+4. T-Test of Lot 3: Reject null hypothesis as P-Value (0.04168) is below significance level. Thus Lot 3 is statistically different from the mean population.
 
 ## Summary
 
-### Recommendations
+### Deliverable 4 - Study Design: MechaCar vs Competition
+To improve the utility of our program, we recommend that AutosRUs' management consider supplimenting the MechaCar analysis with an analysis of the competition. It is our belief that a regression model which predicts Units Sold as a function of Cost and Fuel Efficiency (Both Highway and City) would be a beneficial addition to the current model. 
+This model would test the Alternative Hypothesis stating units sold will increase as costs decrease and fuel efficiency increases. An evaluation of the P-Values for the individual regressors will determine if the selected metrics are good predictors of our hypothesis. It would also be beneficial to evaluate the R-Squared coefficient of the overall model. 
+In order to run this experiment, we will need sales data (cost and volumes) from competitors' annual sales reports as well as fuel efficiency data from government regulatory agencies. 
