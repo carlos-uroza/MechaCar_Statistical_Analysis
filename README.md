@@ -20,6 +20,7 @@ The purpose of this program is to analyze production data for insights that may 
 1. Our program analyzed the production data for Suspension Coils. From the summary table above, we can infer the overall population of suspension coils does meet the design specifications as the standard deviation (7.89 PSI) of the overall population does not exceed 100 PSI.
 
 ![Del2-lot_summary](https://user-images.githubusercontent.com/103288980/184052695-3180167e-63ad-4d61-af55-cff4bbf0a26f.PNG)
+
 2. Our analysis has also determined that each individual lot also meets the design specification as none of the standard deviations seen above are greater than 100 PSI.
 
 ### Deliverable 3 - T-Tests on Suspension Coils
